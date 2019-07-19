@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".MainActivity"
+
+   >
+
+    <!--<Button-->
+        <!--android:id="@+id/b_enable"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Enable"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:layout_centerHorizontal="true"-->
+ <!--/>-->
+
+    <LinearLayout
+        android:id="@+id/ltvOne"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#00695C"
+       >
+
+        <TextView
+            android:id="@+id/questionTV"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textColor="#ffffff"
+            android:textSize="40dp"
+            android:text="2+2"
+            android:gravity="center"
+            android:layout_marginTop="150dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:text="Please enter the answer to the above question."
+            android:gravity="center"
+           android:fontFamily="sans-serif-medium"
+            android:layout_marginTop="15dp"
+            />
+        <EditText
+            android:id="@+id/answerET"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:textColor="#333333"
+            android:textSize="20dp"
+            android:layout_marginTop="40dp"
+            android:gravity="center"
+            android:hint="Enter your answer"
+            android:layout_marginHorizontal="20dp"
+            android:background="@drawable/border"/>
+
+    <Button
+        android:id="@+id/b_lock"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Submit"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textColor="#333333"
+        android:background="#ffffff"
+        android:textSize="16dp"
+        android:layout_marginHorizontal="20dp"
+
+        />
+    </LinearLayout>
+</RelativeLayout>
